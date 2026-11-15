@@ -1,0 +1,66 @@
+LABORATÓRIO — 15/11-S
+
+NOVO 15/11-S: 📦 DESEMBRULHAR — escolha um HTML que JUNTA vários códigos (feito com montador, cada um virava uma aba) e ele acha cada código escondido lá dentro (iframe srcdoc, <template>, textos no JavaScript, base64, JSON — até embrulho dentro de embrulho) e devolve SEPARADO: 👁 ver, ⬇ baixar, todos em .zip, ou ➕ abrir como projeto (aí dá para usar o ✂️ Fatiador, o 🔪 Desmontar e o 🧩 Grupos).
+
+NOVO 15/11-R: 💬 Meu Chat 15/11-E — o tema "Claro" escolhido em ⚙️ agora funciona também no APK/PWA (antes só clareava no "Automático", e o APK não avisa o tema do celular).
+
+NOVO 15/11-Q: 📎 nos dois chats. AI Code Studio: manda IMAGEM (a IA vê — Gemini, GPT, Claude, OpenRouter), arquivo de código/texto até 5 MB e PROJETO .zip (abre, pula node_modules/dist, manda a árvore e os arquivos). Meu Chat 15/11-D: novo botão 📎 para arquivo e projeto .zip (o 📷 continua para fotos).
+
+NOVO 15/11-P: 🤖 AI Code Studio (em 🧰 Ferramentas) agora SABE ONDE ESTÁ: conhece o Laboratório e as abas, vê o projeto escolhido lá em cima e tem o 📖 GUIA das suas ferramentas (para dizer "isso é melhor no Mini SK / no Laboratório"). Prévia aparece EM PÉ no celular (e tem ⤢ só a prévia). Voz sem robô (prefere a pt-br-x-pte). 🌡️ criatividade explicada e começa em 0.4 (melhor para código). Entrega arquivo completo e termina com 📋 Situação.
+
+NOVO 15/11-O: 🔍 RAIO-X DE APK — escolha um .apk (ou .zip) e ele diz em português: que tipo de app é, se só abre um site da internet (e qual), que endereços e rotas /api chama, COMO IMPORTA arquivo (servidor, PDF.js, OCR, limite de MB), que bibliotecas usa e se ficou chave dentro (mascarada). Botões: ⬇ relatório .md, 📋 copiar, ⬇ baixar desmontado (.zip), ➕ abrir a parte web como projeto, 🤖 perguntar à IA.
+
+NOVO 14/11-N: 🧩 GRUPOS — seus códigos .html trabalhando juntos (a ideia do Caça-Bug, sem montar.py). Crie um grupo (Limpeza, Backup, Comparação…), ponha os códigos, e: tudo que um código BAIXA ou COPIA cai sozinho na 🧺 mesa do grupo; 📤 Entregar põe o arquivo da mesa dentro do próximo código (como se você tocasse em "abrir arquivo"); 📋 Colar texto põe na caixa de texto dele; 📋 Relatório para o Claude junta a mesa num .md. Os originais não são mexidos.
+Também: 💬 Meu Chat 14/11-C — diz que qualquer chave grátis serve (Groq, Gemini, OpenRouter) e que a voz é a do celular, grátis (prefere a pt-br-x-pte).
+
+NOVO 14/11-M: CORRIGIDO — a barrinha ⬅ ➡ 🔍 flutuava no canto de baixo e COBRIA o ▶ Ligar tudo e o 🦙 Ollama no celular. Agora ela fica no topo, ao lado da versão, e não cobre nada.
+
+NOVO 14/11-L: 💻 Terminal no celular (Termux): o 🚀 Rodar e o 📦 npm install agora pulam o Electron (que é programa de PC e não instala no Android) — antes ele derrubava o npm install do SK Jurídico 1.7.4.
+
+NOVO 14/11-K: ➕ Importar agora aceita APK (.apk/.aab). O APK é um zip por dentro: a tela do app fica em assets/public/ — dá para ver como o app foi feito no 🔗 Mapa e abrir na 🧪 Prévia.
+
+NOVO 14/11-J: as ferramentas da aba 🧰 Ferramentas (Meu Chat, Projeto Lab, AI Code Studio, Montador, Colador, Faxina de Repetidos, Picotador…) agora ocupam a TELA INTEIRA. Antes ficavam presas numa caixinha de meia tela (um erro no estilo).
+
+NOVO 14/11-I: a tela agora ocupa o monitor inteiro (não fica mais só no meio) e tem a barrinha no canto de baixo: ⬅ voltar · ➡ avançar entre as abas · 🔍− 🔍+ diminuir/aumentar a tela (fica guardado). Atalhos: Alt ← e Alt →.
+
+NOVO 14/11-H: 🧬 Combinar — pegue funções de códigos diferentes (inclusive o que o 🔪 Desmontar e o ✂️ Fatiador separaram) e monte um código novo. Ele traz sozinho o que cada pedaço precisa, avisa o que falta, monta index.html + pecas.js + estilos.css + FICHA.md, e o botão 🤖 manda a ficha completa para a IA.
+
+NOVO 13/11-G: ♻️ Recuperar agora lê as tabelas baixadas do banco do Replit (cada uma em CSV ou JSON): ementas, histórico da IA (pergunta e resposta), configurações (as chaves são tiradas), modelos, conversas, códigos.
+====================
+Abas: 📂 Projetos · 🗺️ Plano macro · ⚖️ Comparar A × B · 🔪 Desmontar · 🔗 Mapa · 🧪 Prévia · ✂️ Fatiador · ♻️ Recuperar · 🧸 Brincar · 🤖 IA · 📒 Memória · 💻 Terminal · 🧰 Ferramentas
+
+🔪 Desmontar .... (veio do Laboratório antigo) abre um HTML grande e mostra as partes, as funções, as cores e os problemas.
+                   ✂️ Picar separa em arquivos (css/ e js/) e TESTA as duas versões; "Abrir como projeto" cria um projeto NOVO
+                   (o original continua guardado).
+🔗 Mapa .......... quem chama quem: o que cada arquivo usa e quem usa ele. Extrai um pedaço com tudo que ele precisa.
+🧪 Prévia ........ roda a página juntando sozinha o CSS, o JS e os módulos ("um chama o outro"). Também junta arquivos soltos.
+✂️ Fatiador ..... corta um arquivo grande (HTML, JS, TSX, CSS, Python, MD) em fatias de 50 a 500 linhas SEM partir função.
+                   Contexto e anotação em cada fatia, prompt pronto para a IA, exporta em .md / .html / .zip,
+                   guarda como projeto e 🔁 junta de volta (o .md volta a ser o arquivo original, letra por letra).
+♻️ Recuperar .... abre o backup .json dos apps antigos (ou o snippets.csv da Replit), acha os códigos, páginas e conversas
+                   e transforma em arquivos de verdade (projeto, .zip ou .md). Chaves e senhas ficam de fora.
+                   Confira aqui ANTES de apagar o app antigo do celular.
+🧸 Brincar ...... o laboratório de brinquedo, para APRENDER: 📥 Caixa (joga tudo, até repetido), 🔁 Repetidos (acha os quase iguais,
+                   ⭐ a mais completa; as outras vão para lixeira/), 🧩 Montar (até 4 códigos lado a lado, cada um na sua
+                   caixinha; 📤 Pegar texto → 🖐️ Mão → 📥 Colar no outro; a tomada Brinquedo.enviar/receber) e 🎓 Aprender
+                   (a IA explica como para iniciante, dá experimentos e liga a tomada no seu código).
+
+🤖 IA ............ é o seu Meu Chat aqui dentro (chaves, 🦙 Ollama, voz, internet, fotos, memória).
+                   Os botões 📎 colocam na caixa do chat o PLANO do projeto, a MEMÓRIA, a COMPARAÇÃO ou um ARQUIVO.
+📒 Memória ....... o caderno de cada projeto (objetivo, o que funciona, o que falta, decisões) + um caderno geral.
+                   Salva sozinho. 📎 manda para a IA.
+💻 Terminal ...... com a MESMA lógica do Mini SK (a que não cai):
+                   ▶ Ligar tudo = conecta no Termux → liga a ponte (em pedacinhos) → manda o projeto → entra na pasta.
+                   Religa sozinho se a conexão ou a ponte caírem. 🚀 Rodar o projeto, 🔁 servidor sem cair, 🦙 Ollama,
+                   ⬇ Trazer, 👁 ver a porta, 🤖 Perguntar à IA (manda a saída do terminal).
+                   NO COMPUTADOR: abra o Laboratório pelo Mini SK do PC (💻 Terminal → 🌐 Abrir como app):
+                   aí ele usa o terminal e a ponte do computador (os projetos vão para C:\Mini-SK\NOME).
+🧰 Ferramentas ... Montador Universal, Picotador, Faxina, Arrumador, Numerador, Preparador, Colador, Meu Chat
+                   e os seus códigos antigos — todos abrem aqui dentro.
+
+COMO ABRIR
+- O melhor: publique (GitHub Pages / Netlify) ou abra pelo Mini SK (▶️ Preview / 🚀 Publicar).
+- As ferramentas e o chat ficam em pastas (ferramentas/, kits/): abrir só o index.html solto pelo
+  gerenciador de arquivos pode não carregar elas.
+
+OS SEUS DADOS ficam no navegador (projetos, memória, conversas do chat). Não limpe os "dados do site".
